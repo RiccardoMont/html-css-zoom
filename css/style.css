@@ -10,7 +10,7 @@
     width: calc(100%/12);
 }
 .col-2{
-    width: calc((100%/12)*2);
+   width: calc((100%/12)*2);
 }
 .col-3{
     width: calc((100%/12)*3);
@@ -51,6 +51,7 @@
     --text-color-white: #ffffff;
     --command-bar-darkgrey: #222222;
     --hoover-command-bar-lightgrey: #4a4a4a;
+    --bg-nametag-grey: #4a4a4aaa;
     --color-recording-red: #e42225;
     --color-active-command-green: #4bc800;
 }
@@ -67,6 +68,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
 }
 
 .flex {
@@ -101,6 +103,10 @@
     position: absolute;
 }
 
+.position-fixed{
+    position: fixed;
+}
+
 .bot-0{
     bottom: 0;
 }
@@ -113,16 +119,20 @@
     top: 5px;
 }
 
+.top-2{
+    top:2rem;
+}
+
 .left-0{
     left: 0;
 }
 
-.right-0{
-    right: 0;
-}
-
 .right-5px{
     right: 5px;
+}
+
+.width-13{
+    width: 13%;
 }
 
 .width-100{
@@ -136,7 +146,8 @@
 .hv10{
     height: 10vh;
 }
-/*start a tag*/
+
+/*start a-tag*/
 a {
     text-decoration: none;
 }
@@ -144,10 +155,11 @@ a {
 a:hover {
     background-color: var(--hoover-command-bar-lightgrey);
 }
+
 a:visited {
     color:inherit;
 }
-/*end a tag*/
+/*end a-tag*/
 
 /*start icons*/
 
@@ -169,15 +181,9 @@ a:visited {
 /*end gap*/
 
 /*start margins*/
-.m05-1{
-    margin: 0.5rem 1rem;
-}
 
 .ml05{
     margin-left: 0.5rem;
-}
-.mr05 {
-    margin-right: 0.5rem;
 }
 
 /*end margins*/
@@ -190,10 +196,6 @@ a:visited {
     padding: 0.5rem;
 }
 
-.p-1{
-    padding: 1rem;
-}
-
 .pl-05{
     padding-left: 0.5rem;
 }
@@ -201,11 +203,14 @@ a:visited {
     padding-right: 0.5rem;
 }
 /*end paddings*/
-
+/*start borders*/
 .border-radius-1{
     border-radius: 0.3rem;
 }
-
+/*end borders*/
+.opacity{
+    opacity: 0.5;
+}
 
 /*end utility*/
 
@@ -231,10 +236,6 @@ a:visited {
 .weight-600{
     font-weight: 600;
 }
-/*
-.line-height-1{
-    line-height: 1.2rem;
-}*/
 
 /*end typography*/
 
@@ -246,6 +247,10 @@ a:visited {
 
 .bg-color-grey {
     background-color: var(--command-bar-darkgrey);
+}
+
+.bg-color-nametag-grey{
+    background-color: var(--bg-nametag-grey);
 }
 
 .color-white {
