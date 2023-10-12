@@ -109,6 +109,10 @@
     left: 0;
 }
 
+.right-0{
+    right: 100px;
+}
+
 .width-100{
     width: 100%;
 }
@@ -117,18 +121,98 @@
     height: 100%;
 }
 
-.height-10{
-    height: 10%;
+.hv10{
+    height: 10vh;
 }
-
+/*start a tag*/
 a {
     text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--hoover-command-bar-lightgrey);
+}
+a:visited {
+    color:inherit;
+}
+/*end a tag*/
+
+/*start icons*/
+
+.fa-1-3x{
+    font-size: 1.3em;
+}
+
+/*end icons*/
+
+/*start gap*/
+.gap5px {
+    gap: 5px;
+}
+
+.gap10px {
+    gap:10px;
+}
+
+/*end gap*/
+
+/*start margins*/
+.m05-1{
+    margin: 0.5rem 1rem;
+}
+
+.ml05{
+    margin-left: 0.5rem;
+}
+.mr05 {
+    margin-right: 0.5rem;
+}
+
+/*end margins*/
+
+.p-05{
+    padding: 0.5rem;
 }
 
 .p-1{
     padding: 1rem;
 }
+
+.pl-05{
+    padding-left: 0.5rem;
+}
+.pr-05{
+    padding-right: 0.5rem;
+}
 /*end utility*/
+
+/*start typography*/
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.size-8{
+    font-size: 8px;
+}
+
+.size-10{
+    font-size: 10px;
+}
+
+.weight-200{
+    font-weight: 200;
+}
+
+.weight-600{
+    font-weight: 600;
+}
+/*
+.line-height-1{
+    line-height: 1.2rem;
+}*/
+
+/*end typography*/
 
 
 /*start colors*/
@@ -138,5 +222,17 @@ a {
 
 .bg-color-grey {
     background-color: var(--command-bar-darkgrey);
+}
+
+.color-white {
+    color: var(--text-color-white);
+}
+
+.color-red {
+    color:var(--color-recording-red)
+}
+
+.color-green {
+    color:var(--color-active-command-green)
 }
 /*end colors*/
