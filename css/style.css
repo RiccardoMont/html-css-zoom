@@ -75,6 +75,10 @@
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .direction-column {
     flex-direction: column;
 }
@@ -130,9 +134,13 @@
 .right-5px{
     right: 5px;
 }
-
+/*
 .width-13{
     width: 13%;
+}
+*/
+.width-180px{
+    width: 180px;
 }
 
 .width-100{
