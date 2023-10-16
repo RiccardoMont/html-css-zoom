@@ -60,8 +60,8 @@
 /*start utility*/
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     margin: auto;
 }
 
@@ -134,26 +134,45 @@
 .right-5px{
     right: 5px;
 }
-/*
-.width-13{
-    width: 13%;
+
+.overflow-y{
+    overflow-y: auto;
 }
-*/
+/*inizio width ed height*/
 .width-180px{
     width: 180px;
+}
+
+.width-95{
+    width: 95%;
 }
 
 .width-100{
     width: 100%;
 }
 
+.height-80{
+    height: 80%;
+}
+
 .height-100{
     height: 100%;
+}
+
+.height100hv{
+    height: 100vh;
 }
 
 .hv10{
     height: 10vh;
 }
+
+/*fine width ed height*/
+/* start z-index*/
+.z-index-1{
+    z-index: 1;
+}
+/*end z-index*/
 
 /*start a-tag*/
 a {
